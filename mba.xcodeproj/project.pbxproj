@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7FBB4A9E27F88DDE00857DE5 /* mbaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4A9D27F88DDE00857DE5 /* mbaApp.swift */; };
-		7FBB4AA027F88DDE00857DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4A9F27F88DDE00857DE5 /* ContentView.swift */; };
 		7FBB4AA227F88DDF00857DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB4AA127F88DDF00857DE5 /* Assets.xcassets */; };
 		7FBB4AA527F88DDF00857DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB4AA427F88DDF00857DE5 /* Preview Assets.xcassets */; };
 		7FBB4AAF27F88DDF00857DE5 /* mbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AAE27F88DDF00857DE5 /* mbaTests.swift */; };
 		7FBB4AB927F88DDF00857DE5 /* mbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AB827F88DDF00857DE5 /* mbaUITests.swift */; };
 		7FBB4ABB27F88DDF00857DE5 /* mbaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ABA27F88DDF00857DE5 /* mbaUITestsLaunchTests.swift */; };
+		7FBB4AC927F88E0800857DE5 /* MbaData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AC727F88E0800857DE5 /* MbaData.xcdatamodeld */; };
+		7FBB4ACC27F88EF400857DE5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ACB27F88EF400857DE5 /* DataController.swift */; };
+		7FBB4ACF27F8949100857DE5 /* PatientHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ACE27F8949100857DE5 /* PatientHomeView.swift */; };
+		7FBB4AD127F8972300857DE5 /* test-records.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB4AD027F8972300857DE5 /* test-records.json */; };
+		7FBB4AD427F8982F00857DE5 /* TestRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AD327F8982F00857DE5 /* TestRecord.swift */; };
+		7FBB4AD627F89ACA00857DE5 /* TopTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AD527F89ACA00857DE5 /* TopTabsView.swift */; };
+		7FBB4AD827F89EAA00857DE5 /* RecordsForDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AD727F89EAA00857DE5 /* RecordsForDate.swift */; };
+		7FBB4ADA27F8E7E200857DE5 /* MyDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AD927F8E7E200857DE5 /* MyDayView.swift */; };
+		7FBB4ADC27F8EF6F00857DE5 /* MbaRecordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ADB27F8EF6F00857DE5 /* MbaRecordFormView.swift */; };
+		7FBB4ADF27F900D800857DE5 /* MbaRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ADD27F900D800857DE5 /* MbaRecord+CoreDataClass.swift */; };
+		7FBB4AE027F900D800857DE5 /* MbaRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4ADE27F900D800857DE5 /* MbaRecord+CoreDataProperties.swift */; };
+		7FBB4AE227FA4C8D00857DE5 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AE127FA4C8D00857DE5 /* ReportsView.swift */; };
+		7FBB4AE427FA551A00857DE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AE327FA551A00857DE5 /* Extensions.swift */; };
+		7FBB4AE727FA557F00857DE5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AE627FA557F00857DE5 /* TestData.swift */; };
+		7FBB4AE927FA6E8A00857DE5 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AE827FA6E8A00857DE5 /* LineChartView.swift */; };
+		7FBB4AEB27FB5ECF00857DE5 /* ChartLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AEA27FB5ECF00857DE5 /* ChartLabelView.swift */; };
+		7FBB4AF127FB9F9300857DE5 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB4AF027FB9F9300857DE5 /* ChartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,6 @@
 /* Begin PBXFileReference section */
 		7FBB4A9A27F88DDE00857DE5 /* mba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBB4A9D27F88DDE00857DE5 /* mbaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbaApp.swift; sourceTree = "<group>"; };
-		7FBB4A9F27F88DDE00857DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FBB4AA127F88DDF00857DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FBB4AA427F88DDF00857DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FBB4AAA27F88DDF00857DE5 /* mbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,23 @@
 		7FBB4AB427F88DDF00857DE5 /* mbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBB4AB827F88DDF00857DE5 /* mbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbaUITests.swift; sourceTree = "<group>"; };
 		7FBB4ABA27F88DDF00857DE5 /* mbaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FBB4AC827F88E0800857DE5 /* MbaData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MbaData.xcdatamodel; sourceTree = "<group>"; };
+		7FBB4ACB27F88EF400857DE5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		7FBB4ACE27F8949100857DE5 /* PatientHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeView.swift; sourceTree = "<group>"; };
+		7FBB4AD027F8972300857DE5 /* test-records.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "test-records.json"; sourceTree = "<group>"; };
+		7FBB4AD327F8982F00857DE5 /* TestRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRecord.swift; sourceTree = "<group>"; };
+		7FBB4AD527F89ACA00857DE5 /* TopTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabsView.swift; sourceTree = "<group>"; };
+		7FBB4AD727F89EAA00857DE5 /* RecordsForDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsForDate.swift; sourceTree = "<group>"; };
+		7FBB4AD927F8E7E200857DE5 /* MyDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayView.swift; sourceTree = "<group>"; };
+		7FBB4ADB27F8EF6F00857DE5 /* MbaRecordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbaRecordFormView.swift; sourceTree = "<group>"; };
+		7FBB4ADD27F900D800857DE5 /* MbaRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MbaRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FBB4ADE27F900D800857DE5 /* MbaRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MbaRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FBB4AE127FA4C8D00857DE5 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		7FBB4AE327FA551A00857DE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FBB4AE627FA557F00857DE5 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		7FBB4AE827FA6E8A00857DE5 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		7FBB4AEA27FB5ECF00857DE5 /* ChartLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLabelView.swift; sourceTree = "<group>"; };
+		7FBB4AF027FB9F9300857DE5 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +126,15 @@
 		7FBB4A9C27F88DDE00857DE5 /* mba */ = {
 			isa = PBXGroup;
 			children = (
+				7FBB4AE527FA555900857DE5 /* Helpers */,
+				7FBB4AD227F8980A00857DE5 /* Models */,
+				7FBB4ACD27F8939100857DE5 /* Views */,
+				7FBB4ACA27F88EC700857DE5 /* Controllers */,
 				7FBB4A9D27F88DDE00857DE5 /* mbaApp.swift */,
-				7FBB4A9F27F88DDE00857DE5 /* ContentView.swift */,
 				7FBB4AA127F88DDF00857DE5 /* Assets.xcassets */,
 				7FBB4AA327F88DDF00857DE5 /* Preview Content */,
+				7FBB4AC727F88E0800857DE5 /* MbaData.xcdatamodeld */,
+				7FBB4AD027F8972300857DE5 /* test-records.json */,
 			);
 			path = mba;
 			sourceTree = "<group>";
@@ -125,6 +162,49 @@
 				7FBB4ABA27F88DDF00857DE5 /* mbaUITestsLaunchTests.swift */,
 			);
 			path = mbaUITests;
+			sourceTree = "<group>";
+		};
+		7FBB4ACA27F88EC700857DE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FBB4ACB27F88EF400857DE5 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7FBB4ACD27F8939100857DE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FBB4ACE27F8949100857DE5 /* PatientHomeView.swift */,
+				7FBB4AD927F8E7E200857DE5 /* MyDayView.swift */,
+				7FBB4AD527F89ACA00857DE5 /* TopTabsView.swift */,
+				7FBB4ADB27F8EF6F00857DE5 /* MbaRecordFormView.swift */,
+				7FBB4AE127FA4C8D00857DE5 /* ReportsView.swift */,
+				7FBB4AE827FA6E8A00857DE5 /* LineChartView.swift */,
+				7FBB4AEA27FB5ECF00857DE5 /* ChartLabelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FBB4AD227F8980A00857DE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FBB4ADD27F900D800857DE5 /* MbaRecord+CoreDataClass.swift */,
+				7FBB4ADE27F900D800857DE5 /* MbaRecord+CoreDataProperties.swift */,
+				7FBB4AD327F8982F00857DE5 /* TestRecord.swift */,
+				7FBB4AD727F89EAA00857DE5 /* RecordsForDate.swift */,
+				7FBB4AF027FB9F9300857DE5 /* ChartData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7FBB4AE527FA555900857DE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FBB4AE327FA551A00857DE5 /* Extensions.swift */,
+				7FBB4AE627FA557F00857DE5 /* TestData.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBB4AD127F8972300857DE5 /* test-records.json in Resources */,
 				7FBB4AA527F88DDF00857DE5 /* Preview Assets.xcassets in Resources */,
 				7FBB4AA227F88DDF00857DE5 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBB4AA027F88DDE00857DE5 /* ContentView.swift in Sources */,
+				7FBB4ACF27F8949100857DE5 /* PatientHomeView.swift in Sources */,
+				7FBB4ADC27F8EF6F00857DE5 /* MbaRecordFormView.swift in Sources */,
+				7FBB4AF127FB9F9300857DE5 /* ChartData.swift in Sources */,
+				7FBB4ADA27F8E7E200857DE5 /* MyDayView.swift in Sources */,
+				7FBB4ADF27F900D800857DE5 /* MbaRecord+CoreDataClass.swift in Sources */,
+				7FBB4AD827F89EAA00857DE5 /* RecordsForDate.swift in Sources */,
+				7FBB4AE727FA557F00857DE5 /* TestData.swift in Sources */,
+				7FBB4AD427F8982F00857DE5 /* TestRecord.swift in Sources */,
+				7FBB4ACC27F88EF400857DE5 /* DataController.swift in Sources */,
+				7FBB4AE027F900D800857DE5 /* MbaRecord+CoreDataProperties.swift in Sources */,
+				7FBB4AE427FA551A00857DE5 /* Extensions.swift in Sources */,
+				7FBB4AC927F88E0800857DE5 /* MbaData.xcdatamodeld in Sources */,
+				7FBB4AE927FA6E8A00857DE5 /* LineChartView.swift in Sources */,
+				7FBB4AEB27FB5ECF00857DE5 /* ChartLabelView.swift in Sources */,
+				7FBB4AD627F89ACA00857DE5 /* TopTabsView.swift in Sources */,
+				7FBB4AE227FA4C8D00857DE5 /* ReportsView.swift in Sources */,
 				7FBB4A9E27F88DDE00857DE5 /* mbaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +681,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FBB4AC727F88E0800857DE5 /* MbaData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FBB4AC827F88E0800857DE5 /* MbaData.xcdatamodel */,
+			);
+			currentVersion = 7FBB4AC827F88E0800857DE5 /* MbaData.xcdatamodel */;
+			path = MbaData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7FBB4A9227F88DDE00857DE5 /* Project object */;
 }
